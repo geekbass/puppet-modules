@@ -38,7 +38,7 @@
 # Replace or add the desired packages between the "" below If adding use a , after.
 class packages {
    $default_packages = [ "vim-enhanced", "vim-common", "bind-utils",
-                       "git", "rsync", "wget" ]
+                       "git", "rsync", "wget", "losf" ]
    package { 
       $default_packages: ensure => "installed" 
  }
