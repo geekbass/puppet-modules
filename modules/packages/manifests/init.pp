@@ -37,7 +37,7 @@
 #
 class packages {
    $default_packages = [ "vim-enhanced", "vim-common", "bind-utils",
-                       "git", "rsync", "wget" ]
+                       "git", "rsync", "wget", "lsof" ]
    package { 
       $default_packages: ensure => "installed" 
  }
