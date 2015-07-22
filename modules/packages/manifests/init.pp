@@ -35,6 +35,7 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
+# Replace or add the desired packages between the "" below If adding use a , after.
 class packages {
    $default_packages = [ "vim-enhanced", "vim-common", "bind-utils",
                        "git", "rsync", "wget", "lsof" ]
